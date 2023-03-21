@@ -49,4 +49,18 @@ fun main() {
     for(i in 0..columns*2){
         print("=")
     }
+    
+
+// fun draw (row: Int, column: Int) { //Вариант решения
+//     for (i in 0 until column) {
+//         print(" ${i + 1}")
+//     }
+//     println()
+//     for (r in 0 until row) {
+//         print("║ ".repeat(column + 1))
+//         println()
+//     }
+//     print("╚" + "═╩".repeat(column - 1) + "═╝")
+// }
+    
 }
